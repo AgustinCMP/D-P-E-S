@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Profile Demo</title>
+<style>
+body {
+  background: #1e1f22;
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: #313338;
+  padding: 20px;
+  border-radius: 12px;
+  width: 320px;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+button {
+  background: #5865F2;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+button:active {
+  transform: scale(1.1);
+}
+
+.count {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.plus {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 140px;
+  opacity: 0;
+  color: gold;
+  font-weight: bold;
+}
+
+.animate {
+  animation: float 0.6s ease-out;
+}
+
+@keyframes float {
+  0% { opacity: 1; transform: translate(-50%, 0); }
+  100% { opacity: 0; transform: translate(-50%, -30px); }
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+  <h2>Username#1234</h2>
+  <div class="count">⭐ <span id="count">2431</span> Wow!</div>
+  <button onclick="addWow()">⭐ WOW!</button>
+  <p>🥈 Profile Builder</p>
+  <div id="plus" class="plus">+1</div>
+</div>
+
+<script>
+function addWow() {
+  let count = document.getElementById("count");
+  let plus = document.getElementById("plus");
+
+  count.innerText = parseInt(count.innerText) + 1;
+
+  plus.classList.remove("animate");
+  void plus.offsetWidth;
+  plus.classList.add("animate");
+}
+</script>
+
+</body>
+</html>
