@@ -91,3 +91,13 @@ Concept by 𝘼𝙜𝙪𝙨𝙩í𝙣𝘾𝙈𝙋 – 2026
 ## 👁️‍🗨️​ 
 
 𝗧𝗵𝗶𝘀 𝗶𝘀 𝗮 𝗰𝗼𝗻𝗰𝗲𝗽𝘁𝘂𝗮𝗹 𝗽𝗿𝗼𝗱𝘂𝗰𝘁 𝗱𝗲𝘀𝗶𝗴𝗻 𝗽𝗿𝗼𝗽𝗼𝘀𝗮𝗹 𝗶𝗻𝘁𝗲𝗻𝗱𝗲𝗱 𝗳𝗼𝗿 𝗱𝗶𝘀𝗰𝘂𝘀𝘀𝗶𝗼𝗻 𝗮𝗻𝗱 𝗶𝗻𝘀𝗽𝗶𝗿𝗮𝘁𝗶𝗼𝗻.
+
+---
+## License
+
+This project is licensed under the  
+**Creative Commons BY-NC-ND 4.0 License**.
+
+You may view and share this work with attribution, but you may not use it commercially or modify it.
+
+© 2026 [AgustínCMP/Lena]
